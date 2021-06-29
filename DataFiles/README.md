@@ -1,13 +1,14 @@
 
-
-
 This folder has the raw & extracted datafiles of this project. The description of each file is as follows:
 
-* [1.Benign_list_big_final.csv: This file has list of legitimate urls. The total count is 35,300. The source of the dataset is University of New Brunswick, https://www.unb.ca/cic/datasets/url-2016.html. 
+* [1.Benign_list_big_final.csv:
+*  This file has list of legitimate urls. The total count is 35,300. The source of the dataset is University of New Brunswick, https://www.unb.ca/cic/datasets/url-2016.html. 
 
-* [2.online-valid.csv:]This file is downloaded from the opensource service called PhishTank. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the latest data: https://www.phishtank.com/developer_info.php.
+* [2.online-valid.csv:]
+* This file is downloaded from the opensource service called PhishTank. This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly. To download the latest data: https://www.phishtank.com/developer_info.php.
 
-* [3.legitimate.csv:]This file has the extracted features of the 5000 legitimate URLs which are randonmly selected from the '1.Benign_list_big_final.csv' file.
+* [3.legitimate.csv:]
+* This file has the extracted features of the 5000 legitimate URLs which are randonmly selected from the '1.Benign_list_big_final.csv' file.
 
 * [4.phishing.csv] This file has the extracted features of the 5000 phishing URLs which are randonmly selected from the '2.online-valid.csv' file.
 
